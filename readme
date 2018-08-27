@@ -1,0 +1,36 @@
+This is a project as part of the selective process to the Data Engineer
+position at WiseTrust.
+The project is a Web Crawler that extract the content of a given web page and
+analyze the text using Python libraries created for text process.
+The application works locally on a web service and can be accessed with
+your favorite web browser. After your write the URL to be accessed, the
+application will plot a graph with the most 100 common words on the page and
+a table that lists all the found words, his frequency and the grammatical type.
+
+To use the application, follow these steps:
+1 - install the follow dependencies:
+    - lxml
+    - jupyter
+    - bottle
+    - matplotlib
+    - nltk
+
+ex: pip install --dependency
+
+2 - Run the application with the command:
+    - python3 main.py
+
+3 - Open your favorite browser and access the follow URL:
+    - http://localhost:8080/search
+
+4 - On the interface, type the URL of the page that you wish to scraping.
+ex: https://www.reddit.com/r/cicada/
+
+5 - Click on the bottom to start the process.
+
+6 - A graph will be plotted with a interface to you explore the graph.
+
+7 - After you close the interface of the graph, a table will appear on the
+web browser.
+
+8 - To repeat the process, just reload the page.
